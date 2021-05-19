@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+}
+/* basic css end */
+
+
+
+/* main css start */
+.container {
+  background: #fff;
+  max-width: 500px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #444;
+}
+
+.timer h1{
+  width: 90px;
+  height: 90px;
+  border: 5px solid #e9e9e9;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  margin: 5px;
+  position: relative;
+}
+
+.timer h1 sub {
+  font-size: 50%;
+}
+
+.btn{
+  margin: 5px;
+}
+.btn.btn-warning:focus {
+  box-shadow: none;
+}
+
+#stop{
+  display: none;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footer p {
+  color: #777;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+}
+
+/* responsive */
+@media (min-width: 992px){
+  .timer h1 {
+    width: 120px;
+    height: 120px;
+    line-height: 110px;
+  }
+}
